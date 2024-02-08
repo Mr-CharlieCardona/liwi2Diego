@@ -1,15 +1,15 @@
-.banner{
+.content{
     position: relative; 
     padding: 16px;  
 }
 
-.banner .especialistas {
+.content .especialistas {
     position: relative;
     width: 40%;
     margin-bottom: 10%;
 }
 
-.banner .img_1 {
+.content .banner {
     position: absolute;
     left: 0;
     top: 0;
@@ -17,14 +17,14 @@
     height: auto;
 }
 
-.banner .img_2{
+.content .person{
     width: 21.2%;
     position: relative;
     margin-left: 10%;
 }
 
 @media screen and (max-width: 960px) {
-    .banner .img_2{
+    .content .person{
         width: 20.5%;
     }
 }
