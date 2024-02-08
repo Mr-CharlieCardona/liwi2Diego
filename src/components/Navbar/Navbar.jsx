@@ -1,5 +1,5 @@
 import {useState} from "react";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaList } from "react-icons/fa";
 import './Navbar.css'
 
 function Navbar() {
@@ -15,11 +15,14 @@ function Navbar() {
                 </div>
                 <div className={ `responsive ${ menu ? 'isActive' : '' }` }>
                     <div className="items">
-                        <a href="#">INICIO</a>
-                        <a href="#">¿QUIENES SOMOS?</a>
-                        <a href="#">INNERSOFT</a>
-                        <a href="#">PRODUCTOS Y SERVICIOS</a>
-                        <a href="#">CONTACTO</a>
+                        <a className="item" href="#">¿QUIENES SOMOS?</a>
+                        <a className="item" href="#">INICIO</a>
+                        <a className="item" href="#">INNERSOFT</a>
+                        <a className="item" href="#">PRODUCTOS Y SERVICIOS</a>
+                        <a className="item" href="#">CONTACTO</a>
+                    </div>
+                    <div>
+                        <a className="cotizar" href="#"><FaList/>   Cotizar Proyecto</a>
                     </div>
                 </div>
                 <div onClick={toggleMenu} className="menu">

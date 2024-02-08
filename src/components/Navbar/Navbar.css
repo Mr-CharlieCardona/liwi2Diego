@@ -13,15 +13,14 @@ nav img{
     width: 200px;
 }
 
-a{
+.items .item{
     text-decoration: none;
     color: #ff6600;
     margin: 0 20px;
 }
   
-a:hover{
+.items .item:hover{
    color: #003399;
-   transform: scale(1.1);
 }
 
 .responsive{
@@ -36,6 +35,22 @@ a:hover{
 .menu{
     display: none;
     cursor: pointer;
+}
+
+.cotizar{
+    background-color: #ff6600;
+    color: white;
+    padding: 15px;
+    font-weight: 800;
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cotizar:hover{
+    background-color: #b64a03;
 }
 
 @media screen and (max-width: 960px) {
