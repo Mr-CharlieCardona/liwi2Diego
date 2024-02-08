@@ -7,6 +7,7 @@ nav{
     padding: 8px;
     font-size: 14px;
     font-family: 'Quicksand', sans-serif;
+    margin: 30px 0;
 }
 
 nav img{
@@ -47,6 +48,7 @@ nav img{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-left: 50px;
 }
 
 .cotizar:hover{
@@ -67,7 +69,7 @@ nav img{
         top: 8%;
         right: 0;
         transition: 0.5s all ease-in;
-        background-color: #003399;
+        background-color: #d4d8e1;
         padding: 20px;
         display: block;
         height: 0vh;
@@ -85,9 +87,13 @@ nav img{
         margin: 20px 0;
     }
     
-    .responsive .items a{
+    .responsive .items .item{
         display: flex;
         flex-direction: column;
         margin-bottom: 20px;
+    }
+
+    .cotizar{
+display: none;
     }
 }

@@ -1,0 +1,30 @@
+.banner{
+    position: relative; 
+    padding: 16px;  
+}
+
+.banner .especialistas {
+    position: relative;
+    width: 40%;
+    margin-bottom: 10%;
+}
+
+.banner .img_1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.banner .img_2{
+    width: 21.2%;
+    position: relative;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 960px) {
+    .banner .img_2{
+        width: 20.5%;
+    }
+}
