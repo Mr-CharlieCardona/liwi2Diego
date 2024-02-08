@@ -1,0 +1,13 @@
+.tools{
+    width: 60%;  
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    margin: 2% auto;
+  }
+
+.tools img{
+    width: 120px;
+    
+}
