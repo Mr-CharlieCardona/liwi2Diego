@@ -15,11 +15,11 @@ function Navbar() {
                 </div>
                 <div className={ `responsive ${ menu ? 'isActive' : '' }` }>
                     <div className="items">
-                        <a className="item" href="#">¿QUIENES SOMOS?</a>
                         <a className="item" href="#">INICIO</a>
+                        <a className="item" href="#QuienesSomos">¿QUIENES SOMOS?</a>
                         <a className="item" href="#">INNERSOFT</a>
                         <a className="item" href="#">PRODUCTOS Y SERVICIOS</a>
-                        <a className="item" href="#">CONTACTO</a>
+                        <a className="item" href="#">CONTACTO</a>                        
                     </div>
                     <div>
                         <a className="cotizar" href="#"><FaList/>   Cotizar Proyecto</a>
