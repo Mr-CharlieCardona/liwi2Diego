@@ -1,16 +1,18 @@
-import Navbar from './components/Navbar/navbar'
+import Navbar from './components/Navbar/Navbar'
 import Inicio from './components/Inicio/Inicio'
-import Tools from './components/Tools/Tools'
+import Slider from './components/Slider/Slider'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <>
       <Navbar/>
       <Inicio/>
-      <Tools/>
+      <Slider/>
     </>
   )
 }
 
 export default App
+

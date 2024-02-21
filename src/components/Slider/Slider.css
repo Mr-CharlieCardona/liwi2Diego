@@ -1,0 +1,29 @@
+.slider{
+    display: flex;
+    cursor: grab;
+    align-items: center;
+}
+
+.item{
+    padding: 15px;
+}
+
+.item img{
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 960px){
+    .slider{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+    }
+}
