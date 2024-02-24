@@ -2,6 +2,7 @@
     display: flex;
     cursor: grab;
     align-items: center;
+    margin: 3% 0;
 }
 
 .item{
@@ -23,7 +24,11 @@
     .slider{
         display: grid;
         grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 20px;
+    }
+
+    .item img{
+        
     }
 }

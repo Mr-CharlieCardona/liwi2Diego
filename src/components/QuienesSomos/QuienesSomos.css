@@ -2,35 +2,72 @@
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    gap: 5%;
-    margin: 3% 10%;
+    width:100%;
+    height:auto;
 }
 
-.img_quienes img{
-    width: 70%;
+#QuienesSomos .img1{  
+    position: absolute;
+    width:100%;
 }
 
-.container h2{
+.img_quienes #img_q{
+    position: relative;
+    width: 50%;
+    margin: 8% 5%;
+    border-radius: 50px;
+}
+
+.img_quienes #img_q2{
+    position: relative;
+    width: 53%;
+    border-radius: 50px;
+    margin-left: 30%;
+}
+
+.context{
+    position: relative;
+    margin: 5% 13%;
+}
+
+.context h3{
     color: #ff6600;
-    font-family: "Kode Mono", monospace;
+    font-family: "Playfair Display", serif;
     text-align: center;
     margin-bottom: 3%;
 }
 
-.container p{
+.context p{
    text-align: justify;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   box-shadow: 3px 3px 0px 0px #003399;
-   padding: 8px;
-   
+   box-shadow: 0px 0px 15px 0px #ff6600;
+   padding: 10px;
+   font-size: 14px;
+   color: white;
+   margin-bottom: 2%;
 }
 
-hr{
-    color: #ff6600;
-    margin: 5px auto 10px auto;
-    border: 0;
-    border-bottom: 5px solid #ff6600;
-    box-shadow: 0px 1px 15px 2px #ff6600;
-    width: 70%;
-    
+@media screen and (max-width: 960px) {
+    #QuienesSomos .img1{  
+        display: none;
+    }
+
+    .img_quienes{
+        display: none;
+    }
+
+    #QuienesSomos{
+        display: block;
+        background: rgba(211, 211, 211, 0.42);
+        padding: 10px 0;
+    }
+
+    .context{
+        width: 75%;
+    }
+
+    .context p{
+        color: black;
+        margin-bottom: 8%;
+    }
 }
