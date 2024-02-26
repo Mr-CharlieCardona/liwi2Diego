@@ -2,7 +2,7 @@ import './QuienesSomos.css'
 
 function QuienesSomos() {
     return (
-        <>
+        <> 
             <section id='QuienesSomos'>
             <img className="img1" src="https://img.freepik.com/vector-gratis/fondo-banner-tecnologia-formas-hexagonales-espacio-texto_1017-22589.jpg" alt="" />
                 <div className='context'>
@@ -18,6 +18,26 @@ function QuienesSomos() {
                     <img id="img_q2" src="https://concepto.de/wp-content/uploads/2018/09/Software-Libre1-e1536932868972-800x400.jpg" alt="" />
                 </div>
             </section>
+            <br />
+            <div className='experiencia'>
+                <div>
+                    <span className='num'>15+</span>
+                    <strong className='strong1'>AÑOS DE EXPERIENCIA</strong>
+                </div>
+                <div>
+                    <span className='cien'>100%</span>
+                    <strong className='strong2'>PROFESIONALES EXPERTOS</strong>
+                </div>
+                <div>
+                    <span className='num'>40+</span>
+                    <strong className='strong3'>DESARROLLOS A MEDIDA</strong>
+                </div>
+                <div>
+                    <span className='cien'>100%</span>
+                    <strong className='strong3'>CLIENTES SATISFECHOS</strong>
+                </div>
+                
+            </div>
         </>
     )
 }
