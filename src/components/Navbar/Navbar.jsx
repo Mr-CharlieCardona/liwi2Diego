@@ -17,7 +17,7 @@ function Navbar() {
                     <div className="items">
                         <a className="item" href="#">INICIO</a>
                         <a className="item" href="#QuienesSomos">¿QUIENES SOMOS?</a>
-                        <a className="item" href="#">INNERSOFT</a>
+                        <a className="item" href="#Innersoft">INNERSOFT</a>
                         <a className="item" href="#">PRODUCTOS Y SERVICIOS</a>
                         <a className="item" href="#">CONTACTO</a>                        
                     </div>
