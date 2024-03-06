@@ -4,7 +4,7 @@ function QuienesSomos() {
     return (
         <> 
             <section id='QuienesSomos'>
-            <img className="img1" src="https://img.freepik.com/vector-gratis/fondo-banner-tecnologia-formas-hexagonales-espacio-texto_1017-22589.jpg" alt="" />
+            
                 <div className='context'>
                     <h3>¿ QUIENES SOMOS ?</h3>
                     <p><b>InnerSoft</b> es una empresa de profesionales en informática con más de 15 años de experiencia en proporcionar soluciones de la más alta calidad en sistemas de información y automatización de procesos.</p>
@@ -18,7 +18,7 @@ function QuienesSomos() {
                     <img id="img_q2" src="https://concepto.de/wp-content/uploads/2018/09/Software-Libre1-e1536932868972-800x400.jpg" alt="" />
                 </div>
             </section>
-            <br />
+           
             <div className='experiencia'>
                 <div>
                     <span className='num'>15+</span>

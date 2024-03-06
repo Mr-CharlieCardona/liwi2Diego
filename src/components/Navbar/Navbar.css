@@ -21,7 +21,7 @@ nav img{
 .items .item{
     text-decoration: none;
     color: #ff6600;
-    margin: 0 20px;
+    margin: 0 5px;
 }
   
 .items .item:hover{
@@ -59,7 +59,7 @@ nav img{
     background-color: #b64a03;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1125px) {
     .menu{
         display: flex;
         color: #ff6600;
@@ -73,7 +73,8 @@ nav img{
         top: 8%;
         right: 0;
         transition: 0.5s all ease-in;
-        background-color: #d4d8e1;
+        background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(182,196,224,1) 48%, rgba(255,255,255,1) 100%);
         padding: 20px;
         display: block;
         height: 0vh;
@@ -87,17 +88,18 @@ nav img{
         height: 35vh;
         opacity: 1;
         z-index: 1;
-        padding: 25px;
-        margin: 20px 0;
+        padding: 0 30px;
+        margin: 65px 0;
     }
     
     .responsive .items .item{
         display: flex;
         flex-direction: column;
-        margin-bottom: 20px;
+        color: #003399;
+
     }
 
     .cotizar{
-display: none;
+        display: none;
     }
 }

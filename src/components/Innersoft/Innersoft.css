@@ -1,10 +1,82 @@
 #Innersoft{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYn9oj_gQL8D5zLzVoM-BbFTgc7InkrvXsmQ&usqp=CAU);
-    
-  
+    background-image: url(https://img.freepik.com/fotos-premium/banner-fondo-sistema-computadora-virtual-codigo-software-matrix-espacio-copia-hecho-ia-generativa_155027-3521.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    padding: 2%;  
 }
 
 #Innersoft img{
     position: relative;
-    width: 20%;
+    width: 75%;
+    border-radius: 50px;
+    box-shadow: 2px 2px 15px 10px lightgray;
+    margin: 8%;
+    animation: entrada_izq_der 2s 1
+}
+
+@keyframes entrada_izq_der {
+    from{
+        transform: translateX(-100px);
+    }
+}
+
+.context_1{
+    position: relative;
+    margin: 5% 13%;
+    animation: entrada_der_izq 2s 1;
+}
+
+@keyframes entrada_der_izq {
+    from{
+        transform: translateX(100px);
+    }
+    
+}
+
+.context_1 h3{
+    color: white;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.context_1 p{
+   text-align: justify;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   box-shadow: 0px 0px 15px 0px white;
+   padding: 10px;
+   font-size: 14px;
+   color: white;
+   background: rgb(0,0,0);
+   background: linear-gradient(201deg, rgba(0,0,0,1) 0%, rgba(1,116,44,1) 100%);
+   margin-bottom: 2%;
+   animation-duration: 3s;
+   animation-name: slidein;
+   animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width: 960px){
+    #Innersoft img{
+        display: none;
+    }
+
+    #Innersoft{
+        display: block;
+    }
 }

@@ -1,9 +1,13 @@
 #QuienesSomos{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-banner-tecnologia-formas-hexagonales-espacio-texto_1017-22589.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(2, 1fr);
     width:100%;
     height:auto;
+    padding: 2%;
     scroll-margin-top: 4em;
 }
 
@@ -17,6 +21,7 @@
     width: 50%;
     margin: 8% 5%;
     border-radius: 50px;
+    box-shadow: 2px 2px 15px 10px lightgray;
 }
 
 .img_quienes #img_q2{
@@ -24,11 +29,30 @@
     width: 53%;
     border-radius: 50px;
     margin-left: 30%;
+    box-shadow: 2px 2px 15px 10px lightgray;
+}
+
+.img_quienes{
+    animation: entrada_der_izq 2s 1;
+}
+
+@keyframes entrada_der_izq {
+    from{
+        transform: translateX(100px);
+    }
+    
 }
 
 .context{
     position: relative;
     margin: 5% 13%;
+    animation: entrada_izq_der 2s 1;
+}
+
+@keyframes entrada_izq_der {
+    from{
+        transform: translateX(-100px);
+    }
 }
 
 .context h3{
@@ -52,7 +76,7 @@
     display: flex;
     gap: 30px;
     justify-content: center;
-    margin: 1% 0;
+    margin: 1%; 
 }
 
 .num{
@@ -64,7 +88,7 @@
     animation: typing 2s steps(4), blink .5s infinite step-end alternate;
     overflow: hidden;
     margin: auto;
-    font-size: 50px;
+    font-size: 40px;
     color: red;
     font-weight: 800;
 }
@@ -78,7 +102,7 @@
     animation: typing 2s steps(5), blink .5s infinite step-end alternate;
     overflow: hidden;
     margin: auto;
-    font-size: 50px;
+    font-size: 40px;
     color: red;
     font-weight: 800;
 }
@@ -141,9 +165,7 @@
 
     #QuienesSomos{
         display: block;
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 40%, rgba(9,9,121,1) 69%, rgba(255,0,78,1) 100%);
-        padding: 10px 0;
+        
     }
 
     .context{
@@ -153,5 +175,11 @@
     .context p{
         color: white;
         margin-bottom: 8%;
+    }
+
+    .experiencia{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
