@@ -1,0 +1,58 @@
+#Productos{
+    background-image: url(https://innersoftcali.com/wp-content/uploads/2022/06/321.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-margin-top: 5em;
+}
+
+.contenido{
+    width: 50%;
+    margin: auto;
+    cursor: grab;
+}
+
+.content{
+    margin-top: 20;
+}
+
+.content h2 {
+    text-align: center;
+    color: #2297bf;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+}
+
+.key{
+    background: transparent !important;
+    height: auto;
+    color: black;
+}
+
+.card{
+    padding: 15px;
+    margin: 4%;
+    border: none !important;
+    background: transparent !important
+}
+
+.card img{
+    margin-bottom: 2%;
+    border-radius: 20px;
+}
+
+.card .title{
+    color: #2297bf;
+    text-align: center;
+    padding: 10px;
+}
+
+.card .text{
+    text-align: justify;
+    padding: 8px;
+}
+
+@media screen and (max-width: 960px){
+    .contenido{
+        width: 100%;
+    }
+}

@@ -22,6 +22,7 @@
     margin: 8% 5%;
     border-radius: 50px;
     box-shadow: 2px 2px 15px 10px lightgray;
+    animation: entrada_der_izq 20s 1;
 }
 
 .img_quienes #img_q2{
@@ -30,11 +31,9 @@
     border-radius: 50px;
     margin-left: 30%;
     box-shadow: 2px 2px 15px 10px lightgray;
+    animation: entrada_der_izq 20s 1;
 }
 
-.img_quienes{
-    animation: entrada_der_izq 2s 1;
-}
 
 @keyframes entrada_der_izq {
     from{
@@ -46,7 +45,7 @@
 .context{
     position: relative;
     margin: 5% 13%;
-    animation: entrada_izq_der 2s 1;
+    animation: entrada_izq_der 20s 1;
 }
 
 @keyframes entrada_izq_der {
@@ -56,7 +55,7 @@
 }
 
 .context h3{
-    color: #ff6600;
+    color: #2fa5c7;
     font-family: "Playfair Display", serif;
     text-align: center;
     margin-bottom: 3%;
@@ -65,7 +64,7 @@
 .context p{
    text-align: justify;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   box-shadow: 0px 0px 15px 0px #ff6600;
+   box-shadow: 0px 0px 15px 0px #2297bf;
    padding: 10px;
    font-size: 14px;
    color: white;
@@ -89,7 +88,7 @@
     overflow: hidden;
     margin: auto;
     font-size: 40px;
-    color: red;
+    color: black;
     font-weight: 800;
 }
 
@@ -103,7 +102,7 @@
     overflow: hidden;
     margin: auto;
     font-size: 40px;
-    color: red;
+    color: black;
     font-weight: 800;
 }
 

@@ -1,5 +1,5 @@
 #Innersoft{
-    background-image: url(https://img.freepik.com/fotos-premium/banner-fondo-sistema-computadora-virtual-codigo-software-matrix-espacio-copia-hecho-ia-generativa_155027-3521.jpg);
+    background-image: url(https://www.research-bl.com/wp-content/uploads/2023/08/programming-background-with-person-working-with-codes-computer.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
@@ -16,7 +16,7 @@
     border-radius: 50px;
     box-shadow: 2px 2px 15px 10px lightgray;
     margin: 8%;
-    animation: entrada_izq_der 2s 1
+    animation: entrada_izq_der 20s 1
 }
 
 @keyframes entrada_izq_der {
@@ -28,12 +28,12 @@
 .context_1{
     position: relative;
     margin: 5% 13%;
-    animation: entrada_der_izq 2s 1;
+    animation: entrada_der_izq 20s 1;
 }
 
 @keyframes entrada_der_izq {
     from{
-        transform: translateX(100px);
+        transform: translateX(50px);
     }
     
 }
@@ -49,28 +49,12 @@
    text-align: justify;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    box-shadow: 0px 0px 15px 0px white;
-   padding: 10px;
+   padding: 15px;
    font-size: 14px;
    color: white;
-   background: rgb(0,0,0);
-   background: linear-gradient(201deg, rgba(0,0,0,1) 0%, rgba(1,116,44,1) 100%);
+   
    margin-bottom: 2%;
-   animation-duration: 3s;
-   animation-name: slidein;
-   animation-iteration-count: 1;
 }
-
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
 
 @media screen and (max-width: 960px){
     #Innersoft img{

@@ -1,6 +1,7 @@
 import {useState} from "react";
 import { FaBars, FaList } from "react-icons/fa";
 import './Navbar.css'
+import logo from '../../assets/img/logo.png'
 
 function Navbar() {
     const [ menu , setMenu ] = useState (false)
@@ -11,14 +12,14 @@ function Navbar() {
         <>
             <nav>
                 <div>
-                    <img src="https://innersoftcali.com/wp-content/uploads/2020/11/logo-innersoft.png" alt="" />
+                    <img src={logo} alt="" />
                 </div>
                 <div className={ `responsive ${ menu ? 'isActive' : '' }` }>
                     <div className="items">
                         <a className="item" href="#">INICIO</a>
                         <a className="item" href="#QuienesSomos">¿QUIENES SOMOS?</a>
-                        <a className="item" href="#Innersoft">INNERSOFT</a>
-                        <a className="item" href="#">PRODUCTOS Y SERVICIOS</a>
+                        <a className="item" href="#Innersoft">PRESENTACIÓN</a>
+                        <a className="item" href="#Productos">PRODUCTOS Y SERVICIOS</a>
                         <a className="item" href="#">CONTACTO</a>                        
                     </div>
                     <div>

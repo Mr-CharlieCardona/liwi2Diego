@@ -11,21 +11,21 @@ nav{
     z-index: 1;
     background-color: white;
     top: 0;
-    border-bottom: 1px solid #ff6600;
+    border-bottom: 1px solid #2297bf;
 }
 
 nav img{ 
-    width: 200px;
+    width: 120px;
 }
 
 .items .item{
     text-decoration: none;
-    color: #ff6600;
+    color: #2297bf;
     margin: 0 5px;
 }
   
 .items .item:hover{
-   color: #003399;
+   color: #0e6c8c;
 }
 
 .responsive{
@@ -43,7 +43,7 @@ nav img{
 }
 
 .cotizar{
-    background-color: #ff6600;
+    background-color: #2297bf;
     color: white;
     padding: 15px;
     font-weight: 800;
@@ -56,13 +56,13 @@ nav img{
 }
 
 .cotizar:hover{
-    background-color: #b64a03;
+    background-color: #0e6c8c;
 }
 
 @media screen and (max-width: 1125px) {
     .menu{
         display: flex;
-        color: #ff6600;
+        color: #2297bf;
         font-size: 40px;
     }
     
@@ -74,7 +74,7 @@ nav img{
         right: 0;
         transition: 0.5s all ease-in;
         background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(182,196,224,1) 48%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(182,196,224,1) 48%, rgba(255,255,255,1) 100%);
         padding: 20px;
         display: block;
         height: 0vh;
@@ -95,8 +95,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(182,196,224,1) 4
     .responsive .items .item{
         display: flex;
         flex-direction: column;
-        color: #003399;
-
+        color: #2297bf;
     }
 
     .cotizar{

@@ -1,19 +1,18 @@
 import images from '../../imgsCarrusel/imgs'
 import './Slider.css'
-import { motion } from 'framer-motion'
 
 const Slider = () => {
   return (
-    <motion.div className="container slider.container">
-        <motion.div className="slider" drag='x' dragConstraints={{right:-100, left:0}}>
+    <div className="container slider.container">
+        <div className="slider">
             {images.map(image => (
-                <motion.div className="item" key={image}>
+                <div className="item" key={image}>
                     <img  src={image} alt="" />
-                </motion.div>
+                </div>
             ))}
-        </motion.div>
+        </div>
         
-    </motion.div>
+    </div>
   )
 }
 

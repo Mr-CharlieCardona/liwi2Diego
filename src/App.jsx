@@ -3,6 +3,7 @@ import Inicio from './components/Inicio/Inicio'
 import Slider from './components/Slider/Slider'
 import QuienesSomos from './components/QuienesSomos/QuienesSomos'
 import Innersoft from './components/Innersoft/Innersoft'
+import Productos from './components/Productos/Productos'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,6 +16,7 @@ function App() {
       <Slider/>
       <QuienesSomos/>
       <Innersoft/>
+      <Productos/>
     </>
   )
 }
