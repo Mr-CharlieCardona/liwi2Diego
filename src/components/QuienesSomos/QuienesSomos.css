@@ -5,8 +5,8 @@
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
     padding: 2%;
     scroll-margin-top: 4em;
 }
@@ -71,88 +71,6 @@
    margin-bottom: 2%;
 }
 
-.experiencia{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    margin: 1%; 
-}
-
-.num{
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 4ch;
-    animation: typing 2s steps(4), blink .5s infinite step-end alternate;
-    overflow: hidden;
-    margin: auto;
-    font-size: 40px;
-    color: black;
-    font-weight: 800;
-}
-
-.cien{
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 5ch;
-    animation: typing 2s steps(5), blink .5s infinite step-end alternate;
-    overflow: hidden;
-    margin: auto;
-    font-size: 40px;
-    color: black;
-    font-weight: 800;
-}
-
-.strong1{
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 20ch;
-    animation: typing 2s steps(20), blink .5s infinite step-end alternate;
-    overflow: hidden;
-    margin: auto;
-    font-size: 20px;
-    font-family: "Kode Mono", monospace;
-}
-
-.strong2{
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 23ch;
-    animation: typing 2s steps(23), blink .5s infinite step-end alternate;
-    overflow: hidden;
-    margin: auto;
-    font-size: 20px;
-    font-family: "Kode Mono", monospace;
-}
-
-.strong3{
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 21ch;
-    animation: typing 2s steps(21), blink .5s infinite step-end alternate;
-    overflow: hidden;
-    margin: auto;
-    font-size: 20px;
-    font-family: "Kode Mono", monospace;
-}
-
-@keyframes typing{
-    from { width: 0; }
-}
-
-@keyframes blink {
-    50% { border-color: transparent; } 
-}
-
 @media screen and (max-width: 960px) {
     #QuienesSomos .img1{  
         display: none;
@@ -174,11 +92,5 @@
     .context p{
         color: white;
         margin-bottom: 8%;
-    }
-
-    .experiencia{
-        display: grid;
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: repeat(1, 1fr);
     }
 }

@@ -1,4 +1,3 @@
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -6,7 +5,7 @@ import productos from '../../productsCarrusel/products'
 import './Productos.css'
 
 function Productos () {
-    var settings = {
+    let settings = {
         dots: true,
         infinite: true,
         speed: 500,

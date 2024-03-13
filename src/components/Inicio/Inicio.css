@@ -1,6 +1,5 @@
 .content{
-    position: relative;
-    margin-top: 70px;  
+    position: relative;  
 }
 
 .content .especialistas {
@@ -23,10 +22,107 @@
     width: 21.2%;
     position: relative;
     margin-left: 10%;
+    animation: entrada_der_izq 20s 1;
+}
+
+@keyframes entrada_der_izq {
+    from{
+        transform: translateX(50px);
+    }
+    
+}
+
+.experiencia{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 10px; 
+}
+
+.num{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 4ch;
+    animation: typing 2s steps(4), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    margin: auto;
+    font-size: 40px;
+    color: #2297bf;
+    font-weight: 800;
+}
+
+.cien{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 5ch;
+    animation: typing 2s steps(5), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    margin: auto;
+    font-size: 40px;
+    color: #2297bf;
+    font-weight: 800;
+}
+
+.strong1{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 20ch;
+    animation: typing 2s steps(20), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    margin: auto;
+    font-size: 20px;
+    font-family: "Kode Mono", monospace;
+}
+
+.strong2{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 23ch;
+    animation: typing 2s steps(23), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    margin: auto;
+    font-size: 20px;
+    font-family: "Kode Mono", monospace;
+}
+
+.strong3{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 21ch;
+    animation: typing 2s steps(21), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    margin: auto;
+    font-size: 20px;
+    font-family: "Kode Mono", monospace;
+}
+
+@keyframes typing{
+    from { width: 0; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; } 
 }
 
 @media screen and (max-width: 960px) {
     .content .person{
         width: 20.5%;
+    }
+
+    .experiencia{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }

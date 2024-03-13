@@ -2,7 +2,8 @@
     background-image: url(https://innersoftcali.com/wp-content/uploads/2022/06/321.png);
     background-repeat: no-repeat;
     background-size: cover;
-    scroll-margin-top: 5em;
+    scroll-margin-top: 4em;
+    padding: 2%;
 }
 
 .contenido{
@@ -20,6 +21,7 @@
     color: #2297bf;
     font-family: "Playfair Display", serif;
     font-weight: 800;
+    margin-top: 15px;
 }
 
 .key{
@@ -33,6 +35,10 @@
     margin: 4%;
     border: none !important;
     background: transparent !important
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 .card img{

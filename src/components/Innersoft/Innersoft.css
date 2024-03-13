@@ -5,7 +5,7 @@
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 2%;  
     scroll-margin-top: 4em;
 }
@@ -29,6 +29,9 @@
     position: relative;
     margin: 5% 13%;
     animation: entrada_der_izq 20s 1;
+    background: #18334ba8;
+    box-shadow: 0px 0px 15px 0px white;
+    padding: 8px;
 }
 
 @keyframes entrada_der_izq {
@@ -48,7 +51,6 @@
 .context_1 p{
    text-align: justify;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   box-shadow: 0px 0px 15px 0px white;
    padding: 15px;
    font-size: 14px;
    color: white;
