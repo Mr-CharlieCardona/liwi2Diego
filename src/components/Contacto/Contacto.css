@@ -137,4 +137,8 @@ ul li a:hover{
         width: 320px;
         height: 150px;
     }
+
+    .contact_cotizar{
+        display: block;
+    }
 }

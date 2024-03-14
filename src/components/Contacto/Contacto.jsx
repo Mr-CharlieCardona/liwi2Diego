@@ -1,3 +1,4 @@
+
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './Contacto.css'
@@ -43,7 +44,7 @@ function Contacto() {
                             <h2>COTIZAR PROYECTO</h2>
                         </div>
                         <div className='formu'>
-                            <Form>
+                            <Form action='' method=''>
                                 <div className='group'>
                                 <Form.Group className="mb-3 group_1" controlId="formBasicName">
                                     <Form.Control className="control" type="text" placeholder="Nombre o Empresa:"/>

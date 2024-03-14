@@ -8,6 +8,8 @@ import SliderClients from './components/SliderClients/SliderClients'
 import Contacto from './components/Contacto/Contacto'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Fragment } from 'react';
+import ScrollButton from './components/ScrollButton/ScrollButton';
 
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
       <Productos/>
       <SliderClients/>
       <Contacto/>
+      <Fragment>
+        <ScrollButton />
+      </Fragment>
     </>
   )
 }
