@@ -20,10 +20,10 @@ function Navbar() {
                         <a className="item" href="#QuienesSomos">¿QUIENES SOMOS?</a>
                         <a className="item" href="#Innersoft">PRESENTACIÓN</a>
                         <a className="item" href="#Productos">PRODUCTOS Y SERVICIOS</a>
-                        <a className="item" href="#">CONTACTO</a>                        
+                        <a className="item" href="#Contacto">CONTACTO</a>                        
                     </div>
                     <div>
-                        <a className="cotizar" href="#"><FaList/>   Cotizar Proyecto</a>
+                        <a className="cotizar" href="#Cotizar"><FaList/>   Cotizar Proyecto</a>
                     </div>
                 </div>
                 <div onClick={toggleMenu} className="menu">
