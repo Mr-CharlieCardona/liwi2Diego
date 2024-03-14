@@ -1,14 +1,14 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import './Cotizar.css'
+import './Contacto.css'
 import { FaLocationDot, FaPhoneVolume, FaFacebook, FaSquareXTwitter, FaYoutube } from "react-icons/fa6";
 import { RiCellphoneFill, RiWhatsappFill, RiInstagramFill } from "react-icons/ri";
 import { MdAlternateEmail } from "react-icons/md";
 
-function Cotizar() {
+function Contacto() {
     return (
         <>
-            <section id="Cotizar">
+            <section id="Contacto">
                 <div className='contact_cotizar'>
                     <div className='container contacto'>
                         <div className='title'>
@@ -79,4 +79,4 @@ function Cotizar() {
     )
 }
 
-export default Cotizar
+export default Contacto

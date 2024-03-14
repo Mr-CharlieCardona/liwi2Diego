@@ -23,7 +23,7 @@ function Navbar() {
                         <a className="item" href="#Contacto">CONTACTO</a>                        
                     </div>
                     <div>
-                        <a className="cotizar" href="#Cotizar"><FaList/>   Cotizar Proyecto</a>
+                        <a className="cotizar" href="#Contacto"><FaList/>   Cotizar Proyecto</a>
                     </div>
                 </div>
                 <div onClick={toggleMenu} className="menu">
