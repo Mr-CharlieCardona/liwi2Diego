@@ -27,7 +27,7 @@ function Productos () {
                                 <div className="card">
                                     <img src={producto.img}/>
                                     <div className="title">
-                                        <h4>{producto.title}</h4>
+                                        <p>{producto.title}</p>
                                     </div>
                                     <div className="text">
                                         <p>{producto.texto}</p>

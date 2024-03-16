@@ -4,7 +4,6 @@ function QuienesSomos() {
     return (
         <> 
             <section id='QuienesSomos'>
-            
                 <div className='context'>
                     <h3>¿ QUIENES SOMOS ?</h3>
                     <p><b>E & E Fábrica de Software</b> es una empresa de profesionales en informática con más de 15 años de experiencia en proporcionar soluciones de la más alta calidad en sistemas de información y automatización de procesos.</p>

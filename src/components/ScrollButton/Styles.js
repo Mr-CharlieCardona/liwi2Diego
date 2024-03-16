@@ -20,4 +20,8 @@ export const Button = styled.div`
    z-index: 1;
    cursor: pointer;
    color: #2297bf;
+   @media screen and (max-width: 960px){
+      left: 80%;
+      font-size: 2.5rem;
+   }
 `

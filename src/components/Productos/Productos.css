@@ -34,7 +34,7 @@
     padding: 15px;
     margin: 4%;
     border: none !important;
-    background: transparent !important
+    background: transparent !important;
 }
 
 .card:hover{
@@ -50,6 +50,7 @@
     color: #2297bf;
     text-align: center;
     padding: 10px;
+    font-size: 18px;
 }
 
 .card .text{
@@ -60,5 +61,19 @@
 @media screen and (max-width: 960px){
     .contenido{
         width: 100%;
+    }
+
+    .card{
+        padding: 5px;
+        margin: 1%;
+    }
+
+    .card .title{
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .card .text{
+        font-size: 12px;
     }
 }
