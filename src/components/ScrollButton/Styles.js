@@ -14,14 +14,15 @@ export const Button = styled.div`
    position: fixed; 
    width: 100%;
    left: 95%;
-   bottom: 40px;
+   bottom: 100px;
    height: 50px;
    font-size: 3rem;
    z-index: 1;
    cursor: pointer;
    color: #2297bf;
    @media screen and (max-width: 960px){
-      left: 80%;
+      left: 82%;
+      bottom: 80px;
       font-size: 2.5rem;
    }
 `

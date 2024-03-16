@@ -25,6 +25,10 @@
     padding: 10px;
 }
 
+.texto ul{
+    padding: 0;
+}
+
 .texto ul li strong{
     color: #2297bf;
 }

@@ -5,10 +5,10 @@ import image4 from '../assets/imgCarrusel/4.png'
 import image5 from '../assets/imgCarrusel/5.png'
 import image6 from '../assets/imgCarrusel/6.png'
 import image7 from '../assets/imgCarrusel/7.png'
-import image8 from '../assets/imgCarrusel/8.png'
+import image8 from '../assets/imgCarrusel/11.png'
 import image9 from '../assets/imgCarrusel/9.png'
 import image10 from '../assets/imgCarrusel/10.png'
-import image11 from '../assets/imgCarrusel/11.png'
+import image11 from '../assets/imgCarrusel/8.png'
 import image12 from '../assets/imgCarrusel/12.png'
 
 export default [
