@@ -13,16 +13,16 @@ export const Content = styled.div`
 export const Button = styled.div`
    position: fixed; 
    width: 100%;
-   left: 95%;
-   bottom: 100px;
+   left: 35px;
+   bottom: 40px;
    height: 50px;
    font-size: 3rem;
    z-index: 1;
    cursor: pointer;
    color: #2297bf;
    @media screen and (max-width: 960px){
-      left: 82%;
-      bottom: 80px;
+      left: 20px;
+      bottom: 45px;
       font-size: 2.5rem;
    }
 `
