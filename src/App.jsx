@@ -2,7 +2,7 @@ import Navbar from './components/Navbar/Navbar'
 import Inicio from './components/Inicio/Inicio'
 import Slider from './components/Slider/Slider'
 import QuienesSomos from './components/QuienesSomos/QuienesSomos'
-import Innersoft from './components/Innersoft/Innersoft'
+import EE from './components/E&E/E&E'
 import Productos from './components/Productos/Productos'
 import SliderClients from './components/SliderClients/SliderClients'
 import Contacto from './components/Contacto/Contacto'
@@ -19,7 +19,7 @@ function App() {
       <Inicio/>
       <Slider/>
       <QuienesSomos/>
-      <Innersoft/>
+      <EE/>
       <Productos/>
       <SliderClients/>
       <Contacto/>

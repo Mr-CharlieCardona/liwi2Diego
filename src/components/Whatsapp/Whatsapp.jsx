@@ -6,7 +6,7 @@ function Whatsapp() {
         <>
             <div className='whatsapp'>
                 <div>
-                    <a href="https://api.whatsapp.com/send?phone=3128337193" className='btn-wsp' target='_blank' rel="noreferrer">
+                    <a href="https://api.whatsapp.com/send?phone=3934567890" className='btn-wsp' target='_blank' rel="noreferrer">
                         <i className='icon'><RiWhatsappFill /></i>
                     </a> 
                 </div>

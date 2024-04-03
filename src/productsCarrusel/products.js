@@ -12,17 +12,17 @@ export default [
     {
         img: image1,
         title: "PLANEACIÓN E INTEGRACION",
-        texto: "InnerSoft asiste a sus clientes en la planeación, diseño, implementación e integración de sistemas de información. Ayudamos a nuestros clientes en la incorporación de tecnología de punta para el mejoramiento de sus procesos industriales y empresariales y para satisfacer sus necesidades de procesamiento y manejo de información."
+        texto: "E&E asiste a sus clientes en la planeación, diseño, implementación e integración de sistemas de información. Ayudamos a nuestros clientes en la incorporación de tecnología de punta para el mejoramiento de sus procesos industriales y empresariales y para satisfacer sus necesidades de procesamiento y manejo de información."
     },
     {
         img: image2,
         title: "SOFTWARE ESPECIALIZADO",
-        texto: "InnerSoft desarrolla software especializado, diseñado exclusivamente para las empresas que asesoramos buscando satisfacer todas sus necesidades particulares, concebido con el fin de brindar la mejor solución posible para la productividad y administración de sus objetivos."
+        texto: "E&E desarrolla software especializado, diseñado exclusivamente para las empresas que asesoramos buscando satisfacer todas sus necesidades particulares, concebido con el fin de brindar la mejor solución posible para la productividad y administración de sus objetivos."
     },
     {
         img: image3,
         title: "ASESORÍA AL CLIENTE",
-        texto: "InnerSoft brinda toda una gama de servicios de asesoría al cliente en estos aspectos, incluyendo análisis y evaluación de la situación actual, proposición y selección de alternativas de automatización, implementación e integración de sistemas de información."
+        texto: "E&E brinda toda una gama de servicios de asesoría al cliente en estos aspectos, incluyendo análisis y evaluación de la situación actual, proposición y selección de alternativas de automatización, implementación e integración de sistemas de información."
     },
     {
         img: image4,
