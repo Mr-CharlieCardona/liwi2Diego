@@ -37,7 +37,7 @@ export default [
     {
         img: image6,
         title: "DESARROLLO APLICATIVOS WEB",
-        texto: "Aplicativos webs; empresariales basados en las necesidades específicas de cada organización y utilizando las tecnologías más acordes según las especificaciones de cada proyecto."
+        texto: "Aplicativos webs empresariales basados en las necesidades específicas de cada organización y utilizando las tecnologías más acordes según las especificaciones de cada proyecto."
     },
     {
         img: image7,
@@ -52,7 +52,7 @@ export default [
     {
         img: image9,
         title: "BENEFICIOS",
-        texto: "Estos sistemas web permiten tener al alcance en cualquier sitio y en cualquier momento, información confiable y oportuna para la toma de decisiones, creando una organización más eficiente. En el caso de extranets, interacción con clientes, proveedores, distribuidores y demás socios comerciales. En el caso de Intranets, mejor comunicación con divisiones, empleados, asociados y en general con todas las áreas de la organización. Estos sistemas web permiten tener al alcance en cualquier sitio y en cualquier momento, información confiable y oportuna para la toma de decisiones, creando una organización más eficiente."
+        texto: "Estos sistemas web permiten tener al alcance en cualquier sitio y en cualquier momento, información confiable y oportuna para la toma de decisiones, creando una organización más eficiente. En el caso de extranets, interacción con clientes, proveedores, distribuidores y demás socios comerciales, mejor comunicación con divisiones, empleados, asociados y en general con todas las áreas de la organización."
     },
 
 ]

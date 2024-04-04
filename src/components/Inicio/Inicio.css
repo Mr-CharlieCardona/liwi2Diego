@@ -51,9 +51,8 @@
     display: block;
     font-family: monospace;
     white-space: nowrap;
-    border-right: 4px solid;
-    width: 4ch;
-    animation: typing 2s steps(4), blink .5s infinite step-end alternate;
+    width: 3ch;
+    animation: typing 2s steps(3), blink .5s infinite step-end alternate;
     overflow: hidden;
     margin: auto;
     font-size: 40px;
@@ -65,9 +64,8 @@
     display: block;
     font-family: monospace;
     white-space: nowrap;
-    border-right: 4px solid;
-    width: 5ch;
-    animation: typing 2s steps(5), blink .5s infinite step-end alternate;
+    width: 4ch;
+    animation: typing 2s steps(4), blink .5s infinite step-end alternate;
     overflow: hidden;
     margin: auto;
     font-size: 40px;
@@ -79,7 +77,7 @@
     display: block;
     font-family: monospace;
     white-space: nowrap;
-    border-right: 4px solid;
+    border-right: 1px solid;
     width: 20ch;
     animation: typing 2s steps(20), blink .5s infinite step-end alternate;
     overflow: hidden;
@@ -92,7 +90,7 @@
     display: block;
     font-family: monospace;
     white-space: nowrap;
-    border-right: 4px solid;
+    border-right: 1px solid;
     width: 23ch;
     animation: typing 2s steps(23), blink .5s infinite step-end alternate;
     overflow: hidden;
@@ -105,7 +103,7 @@
     display: block;
     font-family: monospace;
     white-space: nowrap;
-    border-right: 4px solid;
+    border-right: 1px solid;
     width: 21ch;
     animation: typing 2s steps(21), blink .5s infinite step-end alternate;
     overflow: hidden;
