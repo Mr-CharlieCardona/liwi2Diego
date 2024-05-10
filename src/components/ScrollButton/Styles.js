@@ -19,7 +19,7 @@ export const Button = styled.div`
    font-size: 3rem;
    z-index: 1;
    cursor: pointer;
-   color: #2297bf;
+   color: #0d8d40;
    @media screen and (max-width: 960px){
       left: 20px;
       bottom: 45px;

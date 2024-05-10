@@ -128,7 +128,7 @@ const Contacto = () => {
                     </div>
                 </div>
                 <div className='footer'>
-                    <p>© COPYRIGHT ALL RIGHTS RESERVED E & E Fábrica de Software ®</p>
+                    <p>© COPYRIGHT ALL RIGHTS RESERVED LIWI Software ®</p>
                 </div>
             </section>
         </>

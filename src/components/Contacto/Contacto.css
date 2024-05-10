@@ -9,7 +9,7 @@
 .contact_cotizar{
     display: flex;
     gap: 5px;
-    box-shadow: 0px 0px 30px 0px #2297bf;
+    box-shadow: 0px 0px 30px 0px #075f2a;
 }
 
 .contacto{
@@ -37,12 +37,12 @@
 }
 
 .texto ul li strong{
-    color: #2297bf;
+    color: #0b8f40;
 }
 
 .title h2{
     text-align: center;
-    color: #2297bf;
+    color: #0d8d40;
     font-weight: 900;
     margin: 0;
 }
@@ -69,7 +69,7 @@
 .group .group_1 .control{
     margin-top: 10px;
     height: 50px;
-    color: #2297bf;
+    color: #0d8d40;
 }
 
 .textarea{
@@ -85,7 +85,7 @@ textarea{
     width: 500px;
     height: 150px;
     margin: 0 3%;
-    color: #2297bf;
+    color: #0d8d40;
 }
 
 .buton{
@@ -96,7 +96,7 @@ textarea{
 .buton Button{
     width: 200px;
     height: 60px;
-    background: #2297bf;
+    background: #0d8d40;
     color: white;
     margin: 2% 0;
     font-size: 20px;
@@ -105,7 +105,7 @@ textarea{
 
 .buton Button:hover{
     background: white;
-    color: #2297bf;
+    color: #0d8d40;
 }
 
 ul li{
@@ -120,7 +120,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #2297bf;
+    color: #0d8d40;
 }
 
 .redes ul{

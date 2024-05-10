@@ -6,7 +6,7 @@ function QuienesSomos() {
             <section id='QuienesSomos'>
                 <div className='context'>
                     <h3>¿ QUIENES SOMOS ?</h3>
-                    <p><b>E & E Fábrica de Software</b> es una empresa de profesionales en informática con más de 15 años de experiencia en proporcionar soluciones de la más alta calidad en sistemas de información y automatización de procesos.</p>
+                    <p><b>LIWI Software</b> es una empresa de profesionales en informática con más de 15 años de experiencia en proporcionar soluciones de la más alta calidad en sistemas de información y automatización de procesos.</p>
                     <h3>NUESTRA MISIÓN</h3>
                     <p>Es lograr que nuestros clientes obtengan los mejores beneficios de la tecnología de informática, mediante el suministro de soluciones integrales y de servicios de excelente calidad; además apoyar a nuestros colaboradores en busca de la excelencia y sus logros personales con la mentalidad del servicio nuestra comunidad.</p>
                     <h3>¿ A QUE NOS COMPROMETEMOS ?</h3>

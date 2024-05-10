@@ -1,7 +1,7 @@
 import './Inicio.css'
 import banner from '../../assets/img/banner.jpg'
 import person from '../../assets/img/person.png'
-import especialistas from '../../assets/img/especialistas.png'
+import especialistas from '../../assets/img/especialistas_2.png'
 
 function Inicio() {
     return (
