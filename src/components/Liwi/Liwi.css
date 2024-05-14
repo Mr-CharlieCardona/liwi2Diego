@@ -1,4 +1,4 @@
-#EE{
+#Liwi{
     background-image: url(https://www.research-bl.com/wp-content/uploads/2023/08/programming-background-with-person-working-with-codes-computer.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,7 @@
     scroll-margin-top: 4em;
 }
 
-#EE img{
+#Liwi img{
     position: relative;
     width: 75%;
     border-radius: 50px;
@@ -59,11 +59,11 @@
 }
 
 @media screen and (max-width: 960px){
-    #Innersoft img{
+    #Liwi img{
         display: none;
     }
 
-    #Innersoft{
+    #Liwi{
         display: block;
     }
 }

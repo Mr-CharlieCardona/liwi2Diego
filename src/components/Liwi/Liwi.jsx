@@ -1,9 +1,9 @@
 import './Liwi.css'
 
-function Innersoft() {
+function Liwi() {
     return (
         <> 
-            <section id='EE'>
+            <section id='Liwi'>
                 <div>
                     <img src="https://schucrykafie.com/wp-content/uploads/2018/10/importancia-del-buen-trato.jpg" alt="" />
                 </div>
@@ -21,4 +21,4 @@ function Innersoft() {
     )
 }
 
-export default Innersoft
+export default Liwi
