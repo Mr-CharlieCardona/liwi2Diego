@@ -79,7 +79,7 @@ const Contacto = () => {
                                     <li><strong><FaPhoneVolume /></strong>   +602 524 0696</li>
                                     <li><strong><RiCellphoneFill /></strong> 316 877 2851</li>
                                     <li><strong><RiWhatsappFill /></strong>  312 833 7193</li>
-                                    <li><strong><MdAlternateEmail /></strong>  ideas@e&e.com</li>
+                                    <li><strong><MdAlternateEmail /></strong>  ideas@liwi.com</li>
                                 </ul>
                             </div>
                             <div>

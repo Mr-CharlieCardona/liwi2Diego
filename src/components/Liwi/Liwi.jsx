@@ -1,4 +1,4 @@
-import './E&E.css'
+import './Liwi.css'
 
 function Innersoft() {
     return (
